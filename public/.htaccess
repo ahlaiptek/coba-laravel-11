@@ -3,6 +3,9 @@
         Options -MultiViews -Indexes
     </IfModule>
 
+    # change php version
+    AddHandler application/x-httpd-php82 .php
+
     RewriteEngine On
 
     # Handle Authorization Header
